@@ -28,7 +28,7 @@ body {
 
 #hero {
     height: 100vh;
-    background: url('/img/huge2.jpg') center center/cover no-repeat fixed;
+    background: url('img/huge2.jpg') center center/cover no-repeat fixed;
     color: #fff;
     display: flex;
     align-items: center;
