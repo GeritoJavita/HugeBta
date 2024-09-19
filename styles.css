@@ -189,3 +189,82 @@ body {
         font-size: 1.5rem;
     }
 }
+/* Redes sociales - Estilo Urbano */
+.social-section {
+    background-color: #1c1c1e;
+    color: #fff;
+    padding: 5rem 0;
+    position: relative;
+}
+
+.social-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: #74ebd5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.social-section p {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    color: #bbb;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-icon {
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #1c1c1e;
+    background-color: #74ebd5;
+    border: 2px solid #74ebd5;
+    transform: scale(1.2);
+}
+
+/* Colores específicos para cada red social */
+.instagram:hover {
+    background-color: #e1306c;
+    border-color: #e1306c;
+}
+
+.twitter:hover {
+    background-color: #1da1f2;
+    border-color: #1da1f2;
+}
+
+.youtube:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.soundcloud:hover {
+    background-color: #ff5500;
+    border-color: #ff5500;
+}
+
+.social-icon i {
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .social-icons {
+        flex-direction: column;
+    }
+
+    .social-icon {
+        margin-bottom: 1.5rem;
+    }
+}
