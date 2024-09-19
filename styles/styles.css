@@ -28,7 +28,7 @@ body {
 
 #hero {
     height: 100vh;
-    background: url('https://via.placeholder.com/1920x1080') center/cover no-repeat;
+    background: url(/img/huge2.jpg) center/cover no-repeat;
     color: #fff;
 }
 
