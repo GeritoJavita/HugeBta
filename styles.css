@@ -28,9 +28,57 @@ body {
 
 #hero {
     height: 100vh;
-    background: url(/img/huge2.jpg) center/cover no-repeat;
+    background: url('/img/huge2.jpg') center center/cover no-repeat fixed;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    animation: moveBackground 15s infinite linear;
 }
+
+#hero h1, #hero p {
+    z-index: 2;
+    animation: fadeInText 2s ease-in-out;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Filtro oscuro sobre la imagen */
+    z-index: 1;
+}
+
+/* Efecto de movimiento suave del fondo */
+@keyframes moveBackground {
+    0% {
+        background-position: center top;
+    }
+    50% {
+        background-position: center center;
+    }
+    100% {
+        background-position: center bottom;
+    }
+}
+
+/* Animación para la aparición del texto */
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 #hero h1 {
     font-size: 4rem;
