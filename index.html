@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HugeBta - Artist Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand animate__animated animate__fadeInLeft" href="#">HugeBta</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__fadeInRight" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__fadeInRight" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__fadeInRight" href="#music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__fadeInRight" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <h1 class="display-4 animate__animated animate__zoomIn">Welcome to HugeBta's World</h1>
+            <p class="lead animate__animated animate__fadeInUp">Explore the Art, Music, and Creative Universe</p>
+            <a href="#about" class="btn btn-outline-light animate__animated animate__fadeInUp">Discover More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 animate__animated animate__slideInLeft">
+                    <h2>About HugeBta</h2>
+                    <p>HugeBta is an avant-garde artist blending music and visual art to create immersive experiences. His work transcends the boundaries between sound, sight, and emotion.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/500" class="img-fluid animate__animated animate__zoomIn" alt="HugeBta Art">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section py-5">
+        <div class="container">
+            <h2 class="text-center animate__animated animate__fadeInDown">Gallery</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item animate__animated animate__fadeInUp">
+                        <img src="https://via.placeholder.com/400" class="img-fluid" alt="Artwork 1">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item animate__animated animate__fadeInUp">
+                        <img src="https://via.placeholder.com/400" class="img-fluid" alt="Artwork 2">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item animate__animated animate__fadeInUp">
+                        <img src="https://via.placeholder.com/400" class="img-fluid" alt="Artwork 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="music-section py-5">
+        <div class="container">
+            <h2 class="text-center animate__animated animate__fadeInDown">Music</h2>
+            <p class="text-center lead animate__animated animate__fadeInUp">Discover HugeBta's latest tracks and collaborations</p>
+            <div class="row">
+                <div class="col-md-6 animate__animated animate__fadeInLeft">
+                    <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="col-md-6 animate__animated animate__fadeInRight">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <h2 class="text-center animate__animated animate__fadeInDown">Get in Touch</h2>
+            <form class="contact-form animate__animated animate__fadeInUp">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4 text-center">
+        <div class="container">
+            <p class="m-0">© 2024 HugeBta. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
